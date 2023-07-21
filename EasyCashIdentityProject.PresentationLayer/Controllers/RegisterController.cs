@@ -59,7 +59,7 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
 
 					SmtpClient client = new SmtpClient();
 					client.Connect("smtp.gmail.com",587,false);
-					client.Authenticate("saitcakir25@gmail.com", "PassCode");
+					client.Authenticate("saitcakir25@gmail.com", "wzwbypslluleaujc");
 					client.Send(mimeMessage);
 					client.Disconnect(true);
 
